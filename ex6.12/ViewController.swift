@@ -16,17 +16,12 @@ class ViewController: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
-
-    }
-
-
-    override func viewDidLayoutSubviews()
-    {
-        super.viewDidLayoutSubviews()
         print("started app")
         self.run()
-
     }
+
+
+
 
 
     func run()
